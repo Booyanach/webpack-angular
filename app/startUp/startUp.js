@@ -1,4 +1,4 @@
-require('./startUp.css');
+require('!style!css!./startUp.css');
 
 module.exports.directive = function (app) {
     return app.directive('startUp', function () {
@@ -7,7 +7,7 @@ module.exports.directive = function (app) {
                 scope.hello = 'Hi there m8y';
             },
             replace: true,
-            templateUrl: require('./startUp.html')
+            templateUrl: require('!ngtemplate?relativeTo=/app!html!./startUp.html')
         };
     });
 };
