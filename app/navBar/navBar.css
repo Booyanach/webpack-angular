@@ -1,6 +1,7 @@
 .nav-bar {
-    background-color: #EFEFEF;
+    background-color: #FFFFFF;
     padding: 5px;
+    box-shadow: 0 2px 2px #DDDDDD;
 }
 
 .nav-bar > .links {

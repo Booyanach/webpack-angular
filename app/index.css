@@ -1,6 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    transition: 0.1s all;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #EFEFEF;
 }
 
 a {
