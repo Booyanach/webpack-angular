@@ -1,0 +1,30 @@
+section {
+    background-color: #FFFFFF;
+    padding: 5px;
+    box-shadow: 0 2px 2px #DDDDDD;
+    width: 80%;
+    margin: auto;
+    max-height: 400px;
+    position: relative;
+}
+
+section h2 {
+    cursor: pointer;
+    background-color: #DDDDDD;
+    padding: 10px;
+    margin: -5px;
+}
+
+section p {
+    position: relative;
+    margin: 0;
+    height: 0;
+    visibility: hidden;
+    box-sizing: border-box;
+}
+
+section p.show {
+    margin-top: 10px;
+    height: 100%;
+    visibility: visible;
+}
