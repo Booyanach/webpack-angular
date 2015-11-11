@@ -1,0 +1,21 @@
+.nav-bar {
+    background-color: #EFEFEF;
+    padding: 5px;
+}
+
+.nav-bar > .links {
+    list-style: none;
+    float: right;
+}
+
+.nav-bar > .links > li {
+    display: inline-block;
+}
+
+.nav-bar > .links > li > a {
+    padding: 10px;
+}
+
+.nav-bar > .links > li > a:hover {
+    background-color: #CDCDCD;
+}
